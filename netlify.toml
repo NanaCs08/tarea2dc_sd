@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"
+  publish = "frontend/dist"  # Cambia esto según la ruta de tu carpeta de distribución del frontend
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
